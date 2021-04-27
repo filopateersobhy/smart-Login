@@ -1,0 +1,29 @@
+body {
+  background-image: url(../pexels-startup-stock-photos-7112.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+header {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  min-height: 10vh;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
+.logout {
+  color: black;
+  font-size: 1.5rem;
+}
+.logout:hover{
+  color: red;
+}
+.wel {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+}
